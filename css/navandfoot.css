@@ -1,6 +1,11 @@
 .navbar {
+<<<<<<< HEAD
+  background-color: #236AB9;
+  display: block;
+=======
   background-color: #3263BE;
   display: inline-block;
+>>>>>>> master
   width: 100%;
 }
 
@@ -14,7 +19,11 @@
 
 .navbar li {
   float: left;
+<<<<<<< HEAD
+  border-right: 1px solid #E1ECF9;
+=======
   border-right: 1px solid #E3EAF8;
+>>>>>>> master
 }
 
 .navbar li:last-child {
@@ -29,19 +38,39 @@
 }
 
 .navbar li a:hover {
+<<<<<<< HEAD
+  background-color: #133863;
+}
+
+.navbar li a:active {
+  background-color: #091D34
+=======
   background-color: #7A9CDC;
 }
 
 .navbar li a:active {
   background-color: #E3EAF8;
+>>>>>>> master
 }
 
 .footbar footer,
 .footbar2 footer {
   text-align: center;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  padding: 5px;
   position: absolute;
+  width: 98%;
+  background-color: #091D34;
+=======
+  position: absolute;
+=======
+  position: static;
+  padding: 5px;
+>>>>>>> master
   width: 99%;
   background-color: #1D396D;
+>>>>>>> master
 }
 
 .footbar footer {
@@ -50,9 +79,14 @@
 
 .footbar footer a,
 .footbar2 footer a,
+<<<<<<< HEAD
+.navbar li a  {
+  color: #E1ECF9;
+=======
 .footbar-text h1,
 .navbar li a  {
   color: #E3EAF8;
+>>>>>>> master
   text-decoration: none;
   font-family: arial;
 }
@@ -60,7 +94,11 @@
 .dropdown {
   float: left;
   overflow: hidden;
+<<<<<<< HEAD
+  border-right: 1px solid #E1ECF9;
+=======
   border-right: 1px solid #E3EAF8;
+>>>>>>> master
 }
 
 .dropdown .dropbtn {
@@ -75,14 +113,23 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
+<<<<<<< HEAD
+  background-color: #133863;
+=======
   background-color: #3263BE;
+>>>>>>> master
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+<<<<<<< HEAD
+  background-color: #E1ECF9;
+  min-width: 160px;
+=======
   background-color: #7A9CDC;
   min-width: 150px;
+>>>>>>> master
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -98,7 +145,11 @@
 }
 
 .dropdown-content a:hover {
+<<<<<<< HEAD
+  background-color: #133863;
+=======
   background-color: #3263BE;
+>>>>>>> master
 }
 
 .dropdown:hover .dropdown-content {
@@ -106,7 +157,11 @@
 }
 
 .hamburger {
+<<<<<<< HEAD
+  width: 25px;
+=======
   width: 20px;
+>>>>>>> master
   height: 2px;
   background-color: black;
   margin: 3px 0;
