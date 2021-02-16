@@ -57,12 +57,17 @@
 .footbar2 footer {
   text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 5px;
   position: absolute;
   width: 98%;
   background-color: #091D34;
 =======
   position: absolute;
+=======
+  position: static;
+  padding: 5px;
+>>>>>>> master
   width: 99%;
   background-color: #1D396D;
 >>>>>>> master
