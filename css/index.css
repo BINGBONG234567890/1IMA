@@ -1,3 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("../src/cabinet.png");
+  background-size: cover;
+}
+button {
+  top: 1000px;
 }
