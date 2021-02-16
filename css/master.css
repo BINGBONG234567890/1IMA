@@ -2,3 +2,7 @@
   width: 100%;
   background-color: #E3EAF8;
 }
+.ergonomiske img {
+  display: inline-block;
+  position: relative;
+}
