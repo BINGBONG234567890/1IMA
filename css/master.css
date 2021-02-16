@@ -1,6 +1,31 @@
 .linewrapper {
   width: 100%;
-  background-color: #E3EAF8;
+  height: 1000px
+}
+
+.parallax-break h1 {
+  background-color: #E1ECF9;
+  padding: 0;
+  margin: 0;
+}
+
+.parallax1,
+.parallax2 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5px;
+  z-index: 0;
+}
+
+.parallax1 {
+  background-image: url("../src/index1.jpg");
+}
+
+.parallax2 {
+  background-image: url("../src/index2.jpg");
 }
 .ergonomiske img {
   display: inline-block;
